@@ -1,0 +1,155 @@
+
+
+@font-face {
+    font-family: 'standardgrafregular';
+    src: url('fonts/standard-graf_regular.eot');
+    src: url('fonts/standard-graf_regular.eot?#iefix') format('embedded-opentype'),
+         url('fonts/standard-graf_regular.woff') format('woff'),
+         url('fonts/standard-graf_regular.ttf') format('truetype'),
+         url('fonts/standard-graf_regular.svg#standardgrafregular') format('svg');
+}
+
+@font-face {
+    font-family:'paperwork-black';
+    src: url('fonts/paperwork_black.eot');
+    src: url('fonts/paperwork_black.eot?#iefix') format('embedded-opentype'),
+         url('fonts/paperwork_black.woff') format('woff'),
+         url('fonts/paperwork_black.ttf') format('truetype'),
+         url('fonts/paperwork_black.svg#paperwork-black') format('svg');
+}
+
+@font-face {
+    font-family: 'bagnardregular';
+    src: url('fonts/bagnard-webfont.eot');
+    src: url('fonts/bagnard-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/bagnard-webfont.woff2') format('woff2'),
+         url('fonts/bagnard-webfont.woff') format('woff'),
+         url('fonts/bagnard-webfont.ttf') format('truetype'),
+         url('fonts/bagnard-webfont.svg#bagnardregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'terminal_grotesque';
+    src: url('fonts/terminal-grotesque-webfont.eot');
+    src: url('fonts/terminal-grotesque-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/terminal-grotesque-webfont.woff2') format('woff2'),
+         url('fonts/terminal-grotesque-webfont.woff') format('woff'),
+         url('fonts/terminal-grotesque-webfont.ttf') format('truetype'),
+         url('fonts/terminal-grotesque-webfont.svg#terminal_grotesqueregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'cotham_sansregular';
+    src: url('fonts/cothamsans-webfont.eot');
+    src: url('fonts/cothamsans-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/cothamsans-webfont.woff2') format('woff2'),
+         url('fonts/cothamsans-webfont.woff') format('woff'),
+         url('fonts/cothamsans-webfont.ttf') format('truetype'),
+         url('fonts/cothamsans-webfont.svg#cotham_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body {
+	font-family: "helvetica";
+	font-width: 2px;
+}
+
+
+.conteneur {
+   float:left;
+   width: 80%;
+   overflow: hidden;
+   margin-left: 200px;
+   margin-top: 50px;
+}
+
+
+a /* Liens par défaut (non survolés) */
+{
+   text-decoration: none;
+   color: black;
+}
+
+a:hover /* Apparence au survol des liens */
+{
+   color: yellow;
+}
+
+
+
+.standardgrafregular {
+	font-family:'standardgrafregular';
+	font-size: 90px;
+}
+.standardgrafregular .inside{  
+  font-size: 40px;
+  text-align: left;
+} 
+
+.paperwork-black {
+	font-family:'paperwork-black';
+	font-size: 100px;
+}
+.paperwork-black .inside{  
+  font-size: 40px;
+  text-align: left;
+} 
+
+.bagnardregular {
+  font-family:'bagnardregular';
+  font-size: 100px;
+}
+
+.bagnardregular .inside{  
+  font-size: 40px;
+  text-align: left;
+} 
+
+.terminal_grotesque {
+  font-family:'terminal_grotesque';
+  font-size: 100px;
+}
+
+.terminal_grotesque .inside {  
+  font-size: 40px;
+  text-align: left;
+} 
+.cotham_sansregular {
+  font-family:'cotham_sansregular';
+  font-size: 100px;
+}
+
+.cotham_sansregular.inside {  
+  font-size: 40px;
+  text-align: left;
+} 
+
+
+
+@media print { 
+ /* All your print styles go here */
+  .conteneur {
+     width: 100%;
+     overflow: visible;
+     margin-left: 0px;
+     margin-top: 50px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

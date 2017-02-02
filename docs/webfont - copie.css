@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'paperwork-striped';
+    src: url('paperwork_striped.eot');
+    src: url('paperwork_striped.eot?#iefix') format('embedded-opentype'),
+         url('paperwork_striped.woff') format('woff'),
+         url('paperwork_striped.ttf') format('truetype'),
+         url('paperwork_striped.svg#paperwork-striped') format('svg');
+}
+
+@font-face {
+    font-family: 'paperwork-outline';
+    src: url('paperwork_outline.eot');
+    src: url('paperwork_outline.eot?#iefix') format('embedded-opentype'),
+         url('paperwork_outline.woff') format('woff'),
+         url('paperwork_outline.ttf') format('truetype'),
+         url('paperwork_outline.svg#paperwork-outline') format('svg');
+}
+
+@font-face {
+    font-family: 'paperwork-black';
+    src: url('paperwork_black.eot');
+    src: url('paperwork_black.eot?#iefix') format('embedded-opentype'),
+         url('paperwork_black.woff') format('woff'),
+         url('paperwork_black.ttf') format('truetype'),
+         url('paperwork_black.svg#paperwork-black') format('svg');
+}
+
+@font-face {
+    font-family: 'paperwork-dots';
+    src: url('paperwork_dots.eot');
+    src: url('paperwork_dots.eot?#iefix') format('embedded-opentype'),
+         url('paperwork_dots.woff') format('woff'),
+         url('paperwork_dots.ttf') format('truetype'),
+         url('paperwork_dots.svg#paperwork-dots') format('svg');
+}
+
